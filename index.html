@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul T.P - Profilo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(to right, #f5f5f5, #e0e0e0);
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-image: url('headbg.png');
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        section {
+            margin: 50px 0;
+        }
+        section h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+        }
+        .experience, .education, .skills, .projects, .contact {
+            margin-bottom: 50px;
+        }
+        .experience-item, .education-item, .skill-item, .project-item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .experience-item h3, .education-item h3, .project-item h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+        }
+        .experience-item p, .education-item p, .project-item p, .skill-item p {
+            margin: 0;
+        }
+        .skills {
+            column-count: 2;
+        }
+        .skill-item {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .contact-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .download-cv {
+            margin-top: 20px;
+        }
+        .download-cv a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #45a049;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .download-cv a:hover {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="dp.png" alt="Profile Image" class="profile-image">
+    <h1>Rahul T.P</h1>
+    <p>Software Implementation Engineer</p>
+    <div class="download-cv">
+        <a href="path/to/your-cv.pdf" download="Rahul_TP_CV.pdf">Download CV</a>
+    </div>
+</header>
+
+<nav>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="experience">
+            <div class="experience-item">
+                <h3>Software Implementation Engineer</h3>
+                <p>Tanjer Infosys Private LTD - Doha, Qatar</p>
+                <p>June 2023 - Present</p>
+                <p>Responsibilities: Implementation of Hospital management system, end-user training, business requirement analysis, and providing pre and post-go-live support.</p>
+                <p>Projects:</p>
+                <ul>
+                    <li>Completed HIMS Implementation in Kims Medical Center, Qatar</li>
+                    <li>Completed HIMS Implementation in Doha Clinic, Abu Sidra, Qatar</li>
+                    <li>Ongoing HIMS Implementation in Doha Clinic & Hospital Al Mirqab Al Jadeed St, Doha, Qatar</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Retail Sales Associate</h3>
+                <p>WE ONE ELECTRICALS AND HARDWARE - Kerala, Calicut</p>
+                <p>Aug 2022 - Feb 2023</p>
+                <p>Responsibilities: Delivering exceptional customer service, product selection assistance, and inventory management.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Call Center Representative</h3>
+                <p>Cogent Pvt Ltd & Epson - Mangalore, Karnataka</p>
+                <p>Apr 2020 - Nov 2021</p>
+                <p>Responsibilities: Customer service through inbound/outbound calls, CRM tools usage, and product/service promotion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <div class="education-item">
+                <h3>Bachelor of Engineering in Computer Science</h3>
+                <p>Shree Devi Institute of Technology</p>
+                <p>Graduated: 2022</p>
+            </div>
+            <div class="education-item">
+                <h3>Higher Secondary Education</h3>
+                <p>Poilkave HSS, Kerala Board</p>
+                <p>Graduated: 2016</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skill Set</h2>
+        <div class="skills">
+            <div class="skill-item">
+                <p>Cloud Computing: Microsoft Azure</p>
+            </div>
+            <div class="skill-item">
+                <p>Operating System: Windows Family and Linux</p>
+            </div>
+            <div class="skill-item">
+                <p>Email Service Management: Microsoft Office 365</p>
+            </div>
+            <div class="skill-item">
+                <p>Front End: HTML</p>
+            </div>
+            <div class="skill-item">
+                <p>Adobe, MySQL, Power BI</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Major Projects</h2>
+        <div class="projects">
+            <div class="project-item">
+                <h3>Intrusion Detection of Imbalanced Network Traffic Based on Machine Learning</h3>
+                <p>Shree Devi Institute of Technology</p>
+            </div>
+            <div class="project-item">
+                <h3>Water Potability Prediction</h3>
+                <p>Zephyr Technologies</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <p>Email: <a href="mailto:rahulkappad@gmail.com">rahulkappad@gmail.com</a></p>
+            <p>LinkedIn: <a href="http://linkedin.com/in/rahul-t-p-b642107b">Rahul T.P</a></p>
+            <p>Phone: +974-3010-6754</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Rahul T.P</p>
+</footer>
+
+</body>
+</html>
